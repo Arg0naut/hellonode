@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("markgardner10/hellonode")
+        app = docker.build("Arg0naut/hellonode")
     }
 
     stage('Test image') {
